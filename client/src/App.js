@@ -9,11 +9,13 @@ import LastQuestion from "./components/pagethree/LastQuestion";
 import UsersList from "./components/UsersList";
 import ProtectedRoute from "./components/authentication/ProtectedRoute";
 import Toast from "./components/Toast";
+import HexagonalBackground from "./components/HexagonalBackground";
 
 const App = () => {
   return (
     <Router>
       <div className="min-h-screen flex flex-col relative">
+        <HexagonalBackground />
         <Navbar />
         <main className="flex-1 relative z-10">
           <Routes>
